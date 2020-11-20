@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>First online Health Directory</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="newstyle.css">
+    </head>
+    <body>
+        <div class="docbg">
+        <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Check BMI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stressed?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Leftover Medicines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blood Donors Club</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NGOs</a>
+                </li>
+              </ul>
+            </div>  
+          </nav>
+
+
+
+          <div class="flexbx d-flex p-5">
+            <div class="row">
+              <div class="title-text col-sm-6 p-5">
+                <h1>Search the Most Updated information about Healthcare in
+                <span><strong>Kashmir</strong></span></h1>
+                <h6><i>Doctors, Hospitals, Clinics, Diagnostic Centers & More</i></h6>
+              </div>
+              <div class="col-sm-2 p-5 d-none d-lg-block">
+                  <img src="arrow.png">
+              </div>
+              <div class="col-sm-4 p-5">
+                    <form class="form-div" >
+                      <div class="form-group">
+                            <label for="sel1">Categories</label>
+                            <select class="form-control" id="sel1">
+                              <option>All</option>
+                              <option>Doctors</option>
+                              <option>Hospitals</option>
+                              <option>Clinics</option>
+                              <option>Labs</option>
+                            </select>
+                      </div>
+                      <label><strong>OR</strong>  </label>
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Doctor, Clinic, Hospital or Lab Name" name="text1">
+                      </div>
+                      <div class="form-group">
+                        <label for="sel2">Location</label>
+                        <select class="form-control" id="sel2">
+                          <option>Srinagar</option>
+                          <option>Ahmednagar</option>
+                          <option>Alamgari Bazar</option>
+                          <option>Lalbazar</option>
+                          <option>Batamaloo</option>
+                          <option>Badamwari</option>
+                          <option>Barzulla</option>
+                          <option>Baghat</option>
+                          <option>Chatabal</option>
+                          <option>Dargah</option>
+                          <option>Fatehkadal</option>
+                          <option>Gulshan Nagar</option>
+                          <option>Habak</option>
+                          <option>Kanipora</option>
+                          <option>Lalbazar</option>
+                          <option>Lalmandi</option>
+                          <option>Mehjoor Nagar</option>
+                          <option>Natipora</option>
+                          <option>Batamaloo</option>
+                          <option>Parimpora</option>
+                          <option>Parraypora</option>
+                          <option>Qamarwari</option>
+                          <option>Rajbagh</option>
+                          <option>Shalteng</option>
+                          <option>Saderbal</option>
+                          <option>Tengpoa</option>
+                          <option>Zainakadal</option>
+                        </select>
+                    </div>
+                    <div class="search-btn">
+                      <button type="submit" class="btn">Search&nbsp;&nbsp;
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                    </form>
+              </div> <!--div of form-->
+            </div> <!--div of row container-->
+          </div> <!--div of flex container-->
+    </div> <!--div of docbg-->
+
+
+    <div class="icons-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 category-icon">
+                <a href="#" >
+                    <div class="icon">
+                        <img src="hello-doctor.png"> <br>
+                        <p>Hello Doctor</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 category-icon">
+                <a href="#">
+                    <div class="icon">
+                        <img src="your-health-matters.png"> <br>
+                        <p>Your Health Matters</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 category-icon">
+                <a href="#">
+                    <div class="icon">
+                        <img src="kashmir-health.png"> <br>
+                        <p>Kashmir Health</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 category-icon">
+                <a href="#">
+                    <div class="icon">
+                        <img src="health-beat.png"> <br>
+                        <p>Health Beat</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 category-icon">
+                <a href="#">
+                    <div class="icon">
+                        <img src="health-check.png"> <br>
+                        <p>Health Check</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 category-icon">
+                <a href="#">
+                    <div class="icon">
+                        <img src="doctor-abroad.png"> <br>
+                        <p>Kashmiri Doctors Abroad</p>
+                    </div>
+                </a>
+            </div>
+        </div><!--div of row container-->
+
+    </div><!--div of container-->
+    </div><!--div of icons section-->
+
+
+    <div class="square-section d-flex p-5">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-8 mycont">
+                    <div class="square-section-inside">
+                        <div class="image-overlay">
+                        <img src="pediatric.png" class="img-fluid">
+                        <div class="square-text">
+                            <div class="overlay">
+                            <h2>
+                            <a href="#">
+                                Paediatricians
+                            </a>
+                            </h2>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mycont">
+                    <div class="square-section-inside">
+                        <div class="image-overlay">
+                        <img src="diagnostic.png" class="img-fluid">
+                        <div class="square-text">
+                            <div class="overlay">
+                            <h2>
+                                <a href="#">
+                                    Diagnostic Labs
+                                </a>
+                            </h2>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mycont">
+                    <div class="square-section-inside">
+                        <div class="image-overlay">
+                        <img src="neuro.png" class="img-fluid">
+                        <div class="square-text">
+                            <div class="overlay">
+                            <h2>
+                                <a href="#">
+                                    Neurologists
+                                </a>
+                            </h2>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mycont">
+                    <div class="square-section-inside">
+                        <div class="image-overlay">
+                        <img src="hospital.png" class="img-fluid"> 
+                       <div class="square-text">
+                        <div class="overlay">
+                            <h2>
+                                <a href="#">
+                                    Hospitals
+                                </a>
+                            </h2>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mycont">
+                    <div class="square-section-inside">
+                        <div class="image-overlay">
+                        <img src="gynae.png" class="img-fluid">
+                        <div class="square-text">
+                            <div class="overlay">
+                            <h2>
+                                <a href="#">
+                                    Gynaecologists
+                                </a>
+                            </h2>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--div of row container-->
+        </div><!--div of container-->
+    </div><!--div of square section-->
+
+    <hr class="hr-one">
+
+
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img src="logobot.png" width="156" height="45">
+                        </a>
+                    </div> <br>
+                    <p class="footer-info">
+                        <strong>illaaj.com is an online portal based in Kashmir which delivers
+                    authentic and updated information from the field of health.</strong>
+                    </p>
+                    <p class="footer-info">
+                        <i class="fas fa-phone"></i>&nbsp; +91 9622770066 
+                    </p>
+                    <p class="footer-info">
+                        <i class="fas fa-envelope"></i>&nbsp; hi@illaaj.com
+                    </p>
+                        <div class="footer-social">
+                            <ul class="social-media">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--div of footer social-->
+                </div> <!--div of first column-->
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="useful-links">
+                        <h5><strong>Useful Links</strong></h5>
+                        <ul class="ulinks">
+                            <li>
+                                <a href="#">Doctors in Srinagar, Kashmir</a>
+                            </li>
+                            <li>
+                                <a href="#">Hospitals in Srinagar, Kashmir</a>
+                            </li>
+                            <li>
+                                <a href="#">Diagnostic centres in Srinagar, Kashmir</a>
+                            </li>
+                            <li>
+                                <a href="#">Clinics in Srinagar, Kashmir</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--div of second column-->
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="useful-links">
+                        <h5><strong>Useful Links</strong></h5>
+                        <ul class="ulinks">
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">Emergency Contacts</a>
+                            </li>
+                            <li>
+                                <a href="#">Blood Banks</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--div of third column-->
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="useful-links">
+                        <h5><strong>Useful Links</strong></h5>
+                        <ul class="ulinks">
+                            <li>
+                                <a href="#">Login to health directory</a>
+                            </li>
+                            <li>
+                                <a href="#">Know Your Health</a>
+                            </li>
+                            <li>
+                                <a href="#">Your Food v/s Good Food</a>
+                            </li>
+                            <li>
+                                <a href="#">Kashur Illaaj</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--div of fourth column-->
+            </div><!--div of row-->
+        </div><!--div of container-->
+    </div><!--div of footer top-->
+
+<hr class="hr-two">
+
+    <div class="footer-bot p-3">
+        <div class="container fooot">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; Copyright 2020, illaaj.com. All Rights Reserved
+                </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> <!--div of footer bot-->
+</footer>
+    
+    </body>
+</html>
